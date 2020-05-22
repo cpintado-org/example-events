@@ -1,13 +1,11 @@
 # Workflow based on a template by @cpintado
 
 # name of the workflow: will be visible in the dashboard and in Splunk
-name: template by @cpintado
+name: push event workflow
 
 # Trigger the workflow when the Star button is clicked
 on:
-  watch:
-    types:
-      - started
+  push
 
 # list of jobs, creat more than one if necessary
 jobs:
