@@ -1,6 +1,6 @@
 # Workflow based on a template by @cpintado
 
-# name of the workflow: will be visible in the dashboard and in Splunk
+# name of the workflow: will be visible in the dashboard
 name: push event workflow
 
 # Trigger the workflow when the Star button is clicked
