@@ -3,9 +3,10 @@
 # name of the workflow: will be visible in the dashboard
 name: pull request workflow
 
-# Trigger the workflow when the Star button is clicked
+
 on:
-  pull_request
+  pull_request:
+    types: [created, synchronize]
 
 # list of jobs, creat more than one if necessary
 jobs:
